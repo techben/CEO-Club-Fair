@@ -34,7 +34,7 @@ video {
 
 @media (pointer: coarse) and (hover: none) {
   body {
-    background: url("../img/bg-mobile-fallback.jpg") #002E66 no-repeat center center scroll;
+    background: url("../img/bg-mobile-fallback.jpg") #293fff no-repeat center center scroll;
     background-position: cover;
   }
   body video {
@@ -48,7 +48,7 @@ video {
   left: 0;
   height: 100%;
   width: 100%;
-  background-color: #cd9557;
+  background-color: #08c38e;
   opacity: 0.7;
   z-index: 1;
 }
@@ -69,7 +69,7 @@ video {
   width: 100%;
   min-height: 35rem;
   height: 100%;
-  background-color: rgba(0, 46, 102, 0.8);
+  background-color: rgba(41, 63, 255, 1);
   transform: skewY(4deg);
   transform-origin: bottom right;
 }
@@ -182,18 +182,18 @@ video {
     width: 4rem;
   }
   .social-icons ul > li > a:hover {
-    background-color: #002E66;
+    background-color: #293fff;
   }
 }
 
 .btn-secondary {
-  background-color: #cd9557;
-  border-color: #cd9557;
+  background-color: #08c38e;
+  border-color: #08c38e;
 }
 
 .btn-secondary:active, .btn-secondary:focus, .btn-secondary:hover {
-  background-color: #ba7c37 !important;
-  border-color: #ba7c37 !important;
+  background-color: #898989 !important;
+  border-color: #08c38e !important;
 }
 
 .input {
